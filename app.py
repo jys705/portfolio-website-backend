@@ -8,8 +8,8 @@ app = Flask(__name__)
 CORS(app)
 
 # OpenAI API KEY
-OPENAI_API_KEY = "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"
-ASSISTANT_ID = "asst_plYnLzRVBnRDkhT0C5vvhfpu"
+OPENAI_API_KEY = ""
+ASSISTANT_ID = ""
 
 # 메타데이터 태그 제거 함수
 def clean_assistant_response(text):
